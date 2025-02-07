@@ -228,4 +228,5 @@ np.savetxt('grid.txt', final_grid, fmt="%d")
 with open("shapes.txt", "w") as outfile:
     outfile.write(str(placedShapes))
 with open("time.txt", "w") as outfile:
-    outfile.write(str(end-start))
+    outfile.write(str(end-start)) #sameer bhai
+
